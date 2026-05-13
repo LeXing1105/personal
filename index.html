@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Le Xing - Research Scientist, Project Lead, and Postdoctoral Researcher working on brain-computer interfaces, EEG, neuromodulation, biosensing, and edge AI.">
+    <title>Le Xing | CV</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Le Xing CV home">
+          <span class="brand-mark">LX</span>
+          <span>Le Xing</span>
+        </a>
+        <div class="topbar-actions">
+          <div class="language-switch" aria-label="Language switcher">
+            <button class="language-button is-active" type="button" data-lang-button="en">EN</button>
+            <button class="language-button" type="button" data-lang-button="zh">中文</button>
+          </div>
+          <button class="export-button" type="button" id="exportPdfButton" aria-label="Export CV as PDF" data-i18n="actions.exportPdf">Export PDF</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="profile-name">
+        <div class="hero-inner">
+          <div class="profile-photo-wrap">
+            <img src="assets/profile.jpeg" alt="Portrait of Le Xing" class="profile-photo">
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.kicker"></p>
+            <h1 id="profile-name" data-i18n="profile.name"></h1>
+            <p class="headline" data-i18n="profile.headline"></p>
+            <p class="summary" data-i18n="profile.summary"></p>
+            <div class="contact-strip" id="contactStrip" aria-label="Contact links"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-facts" aria-label="Profile highlights">
+        <div class="quick-facts-grid" id="quickFacts"></div>
+      </section>
+
+      <div class="page-shell">
+        <aside class="section-nav" aria-label="CV sections">
+          <p class="nav-title" data-i18n="nav.title"></p>
+          <div id="sectionNav"></div>
+        </aside>
+
+        <div class="content-stack" id="cvContent"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer.updated"></p>
+      <p data-i18n="footer.edit"></p>
+    </footer>
+
+    <p class="visually-hidden" id="exportStatus" aria-live="polite"></p>
+
+    <script src="cv-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
