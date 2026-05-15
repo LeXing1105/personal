@@ -6,9 +6,15 @@ This folder now contains a static bilingual CV website generated from `CV-LEXING
 
 Open `index.html` in a browser. No build step or server is required.
 
-After GitHub Pages finishes deploying, the one-click public CV link is:
+After GitHub Pages is enabled for this repository, the one-click public CV link is:
 
 https://lexing1105.github.io/personal/
+
+GitHub Pages settings:
+
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/ (root)`
 
 ## Edit the CV content
 
