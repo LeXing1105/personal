@@ -6,6 +6,10 @@ This folder now contains a static bilingual CV website generated from `CV-LEXING
 
 Open `index.html` in a browser. No build step or server is required.
 
+After GitHub Pages finishes deploying, the one-click public CV link is:
+
+https://lexing1105.github.io/personal/
+
 ## Edit the CV content
 
 Most future updates should happen in `cv-data.js`.
