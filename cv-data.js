@@ -123,10 +123,6 @@ const CV_DATA = {
             },
             {
               title: { en: "Closed-loop EEG-tES integrated system for neuromodulation", zh: "闭环 EEG-tES 一体化神经调控系统" },
-              context: {
-                en: "Postdoctoral work at Zhejiang University, College of Computer Science, State Key Laboratory of Brain-Machine Intelligence, with Prof. Gang Pan.",
-                zh: "浙江大学计算机科学与技术学院、脑机智能全国重点实验室博士后课题，合作导师潘纲教授。",
-              },
               bullets: [
                 { en: "Defined product requirements and led the project.", zh: "定义产品需求并负责项目推进。" },
                 { en: "Validated EEG and transcranial electrical stimulation hardware.", zh: "开展脑电与经颅电刺激硬件验证。" },
@@ -163,6 +159,7 @@ const CV_DATA = {
           period: { en: "2024/06 - Now", zh: "2024/06 - 至今" },
           title: { en: "Postdoctoral Researcher", zh: "博士后研究员" },
           organization: { en: "Zhejiang University, State Key Laboratory of Brain-Machine Intelligence", zh: "浙江大学脑机智能全国重点实验室" },
+          detail: { en: "College of Computer Science, with Prof. Gang Pan.", zh: "计算机科学与技术学院，合作导师潘纲教授。" },
         },
         {
           period: { en: "2021/09 - 2022/12", zh: "2021/09 - 2022/12" },
