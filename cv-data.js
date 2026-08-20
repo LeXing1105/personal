@@ -492,57 +492,6 @@ const CV_DATA = {
       ],
     },
     {
-      id: "references",
-      type: "references",
-      title: { en: "Referees", zh: "推荐人" },
-      kicker: { en: "Available contacts", zh: "推荐人信息" },
-      groups: [
-        {
-          organization: { en: "University of Manchester", zh: "曼彻斯特大学" },
-          people: [
-            {
-              name: { en: "Prof. Alex Casson", zh: "Prof. Alex Casson" },
-              role: { en: "PhD main supervisor", zh: "博士主导师" },
-              email: "alex.casson@manchester.ac.uk",
-              phone: "+44 (0)777 5018177",
-            },
-            {
-              name: { en: "Prof. Anthony Jones", zh: "Prof. Anthony Jones" },
-              role: { en: "Research collaborator", zh: "研究合作者" },
-              email: "anthony.jones@manchester.ac.uk",
-              phone: "+44 (0)161 2064266",
-            },
-            {
-              name: { en: "Dr. Paul Wright", zh: "Dr. Paul Wright" },
-              role: { en: "PhD co-supervisor", zh: "博士联合导师" },
-              email: "P.Wright-2@manchester.ac.uk",
-              phone: "+44 (0)161 5293178",
-            },
-          ],
-        },
-        {
-          organization: { en: "BrainCo Inc.", zh: "强脑科技 BrainCo Inc." },
-          people: [
-            {
-              name: { en: "Disi A", zh: "Disi A" },
-              role: { en: "CTO of BrainCo Inc.; line manager", zh: "强脑科技 CTO；直属负责人" },
-              email: "adis@brainco.cn",
-            },
-          ],
-        },
-        {
-          organization: { en: "Zhejiang University", zh: "浙江大学" },
-          people: [
-            {
-              name: { en: "Prof. Gang Pan", zh: "潘纲教授" },
-              role: { en: "Postdoctoral supervisor", zh: "博士后合作导师" },
-              email: "gpan@zju.edu.cn",
-            },
-          ],
-        },
-      ],
-    },
-    {
       id: "hobbies",
       type: "list",
       title: { en: "Hobbies", zh: "兴趣爱好" },
