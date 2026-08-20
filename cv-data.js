@@ -44,8 +44,8 @@ const CV_DATA = {
       zh: "强脑科技科研专家与项目负责人 | 浙江大学博士后研究员 | 曼彻斯特大学博士",
     },
     summary: {
-      en: "Research scientist working at the intersection of brain-computer interfaces, EEG monitoring, neuromodulation, wearable biosensing, and edge AI. Experienced in project leadership, translational product development, 3D-printed electrophysiology sensors, signal processing, deep learning deployment, Android apps, and clinical-collaboration research.",
-      zh: "研究方向聚焦脑机接口、脑电监测、神经调控、可穿戴生物传感与端侧人工智能。具备项目负责人经验，覆盖转化产品研发、3D打印电生理传感器、信号处理、深度学习部署、安卓应用开发与临床合作研究。",
+      en: "Research scientist working at the intersection of brain-computer interfaces, EEG monitoring, neuromodulation, wearable biosensing, and edge AI. Experienced in project leadership, translational product development, electrode development, signal processing, deep learning deployment, Android apps, and clinical-collaboration research.",
+      zh: "研究方向聚焦脑机接口、脑电监测、神经调控、可穿戴生物传感与端侧人工智能。具备项目负责人经验，覆盖转化产品研发、电极研发、信号处理、深度学习部署、安卓应用开发与临床合作研究。",
     },
     contacts: [
       { label: "Email", type: "email", value: "le.xing@brainco.cn" },
