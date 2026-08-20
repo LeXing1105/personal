@@ -111,10 +111,9 @@ const CV_DATA = {
           period: { en: "2024/06 - Now", zh: "2024/06 - 至今" },
           title: { en: "Research Scientist & Project Lead", zh: "科研专家与项目负责人" },
           organization: { en: "BrainCo Inc.", zh: "强脑科技 BrainCo Inc." },
-          detail: { en: "Postdoctoral Researcher at Zhejiang University", zh: "浙江大学博士后研究员" },
           projects: [
             {
-              title: { en: "EEGo: Wireless multi-channel EEG monitoring and analysis system", zh: "EEGo：无线多通道脑电监测与分析系统" },
+              title: { en: "BCIGo: Smart Brain-Computer Interface System", zh: "BCIGo：智能脑机接口系统" },
               bullets: [
                 { en: "Defined product requirements and led the project.", zh: "定义产品需求并负责项目推进。" },
                 { en: "Validated EEG electrodes and hardware.", zh: "开展脑电电极与硬件验证。" },
@@ -144,7 +143,7 @@ const CV_DATA = {
               ],
             },
             {
-              title: { en: "Brain-Controlled Robotics", zh: "脑控机器人" },
+              title: { en: "Brain-Controlled Robot AI Platform", zh: "脑控机器人 AI 平台" },
               bullets: [
                 { en: "Defined product requirements and led the project.", zh: "定义产品需求并负责项目推进。" },
                 { en: "Developed Motor Imagery and SSVEP neural decoding algorithms for online classification.", zh: "开发运动想象与 SSVEP 在线分类神经解码算法。" },
@@ -159,6 +158,11 @@ const CV_DATA = {
               ],
             },
           ],
+        },
+        {
+          period: { en: "2024/06 - Now", zh: "2024/06 - 至今" },
+          title: { en: "Postdoctoral Researcher", zh: "博士后研究员" },
+          organization: { en: "Zhejiang University, State Key Laboratory of Brain-Machine Intelligence", zh: "浙江大学脑机智能全国重点实验室" },
         },
         {
           period: { en: "2021/09 - 2022/12", zh: "2021/09 - 2022/12" },
@@ -300,6 +304,10 @@ const CV_DATA = {
         {
           year: "2026",
           items: [
+            {
+              en: "Xing, L., Liang, M., Jia, Y., Xie, G., Xu, L., Chen, X. A., ... & Han, B. (2026). Design and Validation of a Portable EEG-tES Platform Supporting High-Rate EEG Recording and Temporal Interference Stimulation. arXiv preprint arXiv:2608.06783.",
+              zh: "Xing, L., Liang, M., Jia, Y., Xie, G., Xu, L., Chen, X. A., ... & Han, B. (2026). Design and Validation of a Portable EEG-tES Platform Supporting High-Rate EEG Recording and Temporal Interference Stimulation. arXiv preprint arXiv:2608.06783.",
+            },
             {
               en: "Xing L, A D, Yao P, et al. tACSNet: A Novel Deep Convolutional Autoencoder for Transcranial Alternating Current Stimulation Artifact Removal from Concurrent EEG Signal. 2026.",
               zh: "Xing L, A D, Yao P, et al. tACSNet: A Novel Deep Convolutional Autoencoder for Transcranial Alternating Current Stimulation Artifact Removal from Concurrent EEG Signal. 2026.",
