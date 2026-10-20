@@ -12,7 +12,7 @@ const CV_DATA = {
         exporting: "PDF export dialog opened.",
       },
       footer: {
-        updated: "Last content update: May 2026.",
+        updated: "Last content update: October 2026.",
         edit: "Maintain this site by editing cv-data.js for content and styles.css for visual design.",
       },
     },
@@ -28,7 +28,7 @@ const CV_DATA = {
         exporting: "PDF 导出窗口已打开。",
       },
       footer: {
-        updated: "内容最后更新：2026年5月。",
+        updated: "内容最后更新：2026年10月。",
         edit: "后续维护时，修改 cv-data.js 更新内容，修改 styles.css 调整视觉样式。",
       },
     },
@@ -156,7 +156,7 @@ const CV_DATA = {
           ],
         },
         {
-          period: { en: "2024/06 - Now", zh: "2024/06 - 至今" },
+          period: { en: "2024/10 - 2026/10", zh: "2024/10 - 2026/10" },
           title: { en: "Postdoctoral Researcher", zh: "博士后研究员" },
           organization: { en: "Zhejiang University, State Key Laboratory of Brain-Machine Intelligence", zh: "浙江大学脑机智能全国重点实验室" },
           detail: { en: "College of Computer Science, with Prof. Gang Pan.", zh: "计算机科学与技术学院，合作导师潘纲教授。" },
@@ -462,6 +462,7 @@ const CV_DATA = {
       title: { en: "Professional Certificates, Memberships & Service", zh: "专业资质、会员与学术服务" },
       kicker: { en: "Professional engagement", zh: "专业参与" },
       items: [
+        { en: "Drafter of the Chinese national standard \"Evaluation of the Use of Brain-Computer Interface Medical Equipment\", 2025–2026.", zh: "国家标准《脑机接口医疗装备使用评估》起草人，2025–2026。" },
         { en: "Expert advisor of the Ministry of Science and Technology of China, 2025/12.", zh: "中国科学技术部专家顾问，2025/12。" },
         { en: "Certified expert of Shenzhen Development and Reform Commission for government project assessment.", zh: "深圳市发展和改革委员会政府项目评审认证专家。" },
         { en: "Registered member of international standard Brain-Computer Interfaces - ISO/IEC JTC 1/SC 43.", zh: "国际标准 Brain-Computer Interfaces - ISO/IEC JTC 1/SC 43 注册成员。" },
