@@ -62,7 +62,8 @@
 
     CV_DATA.profile.contacts.forEach((item) => {
       const href = item.href || (item.type === "email" ? `mailto:${item.value}` : item.value);
-      strip.append(link(item.label, href, "contact-link"));
+      const label = item.type === "email" ? `${item.label}: ${item.value}` : item.label;
+      strip.append(link(label, href, "contact-link"));
     });
   }
 
