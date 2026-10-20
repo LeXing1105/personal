@@ -118,6 +118,7 @@ const CV_DATA = {
           projects: [
             {
               title: { en: "BCIGo: Smart Brain-Computer Interface System", zh: "BCIGo：智能脑机接口系统" },
+              url: "https://www.brainco.cn/products/bcigo",
               bullets: [
                 { en: "Defined product requirements and led the project.", zh: "定义产品需求并负责项目推进。" },
                 { en: "Validated EEG electrodes and hardware.", zh: "开展脑电电极与硬件验证。" },
@@ -144,6 +145,7 @@ const CV_DATA = {
             },
             {
               title: { en: "Brain-Controlled Robot AI Platform", zh: "脑控机器人 AI 平台" },
+              url: "https://www.brainco.cn/products/brain-control-robot",
               bullets: [
                 { en: "Defined product requirements and led the project.", zh: "定义产品需求并负责项目推进。" },
                 { en: "Developed Motor Imagery and SSVEP neural decoding algorithms for online classification.", zh: "开发运动想象与 SSVEP 在线分类神经解码算法。" },

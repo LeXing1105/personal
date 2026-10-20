@@ -123,6 +123,11 @@
       entry.projects.forEach((project) => {
         const projectNode = el("section", "project");
         projectNode.append(el("h4", "project-title", text(project.title)));
+        if (project.url) {
+          const productLink = el("p", "project-context");
+          productLink.append(link(text({ en: "Official product page", zh: "产品官网" }), project.url));
+          projectNode.append(productLink);
+        }
         if (project.context) projectNode.append(el("p", "project-context", text(project.context)));
         const bullets = renderBullets(project.bullets);
         if (bullets) projectNode.append(bullets);
