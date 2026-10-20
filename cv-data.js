@@ -111,6 +111,10 @@ const CV_DATA = {
           period: { en: "2024/06 - Now", zh: "2024/06 - 至今" },
           title: { en: "Research Scientist & Project Lead", zh: "科研专家与项目负责人" },
           organization: { en: "BrainCo Inc.", zh: "强脑科技 BrainCo Inc." },
+          description: {
+            en: "Two years of technical team management experience, managing and coordinating a team of approximately 20 R&D engineers to advance brain-computer interface products through research and development, design, manufacturing, and commercialization.",
+            zh: "具备两年技术团队管理经验，管理并协调约 20 人的研发工程师团队，推动脑机接口产品从研发、设计、生产制造到商业化落地的全流程。",
+          },
           projects: [
             {
               title: { en: "BCIGo: Smart Brain-Computer Interface System", zh: "BCIGo：智能脑机接口系统" },
